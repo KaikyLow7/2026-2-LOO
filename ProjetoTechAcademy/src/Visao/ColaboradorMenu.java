@@ -21,6 +21,7 @@ public class ColaboradorMenu extends AbsMenu {
             switch (opcao) {
                 case 1:
                     this.listar();
+                    this.pausar();
                     break;
                 case 2:
                     this.pesquisarPorCodigo();
