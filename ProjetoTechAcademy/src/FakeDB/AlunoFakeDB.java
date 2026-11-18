@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import Dominio.*;
 
-public class AlunoFakeDB extends AbsFakeDB{
+public class AlunoFakeDB extends AbsGenericFakeDB<Aluno>{
 
     @Override
     protected void autoPreencher() {
